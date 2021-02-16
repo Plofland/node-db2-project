@@ -6,6 +6,7 @@ exports.up = function (knex) {
     table.text('make', 128).notNullable();
     table.text('model', 128).notNullable();
     table.decimal('year', 4);
+        
   });
 };
 
